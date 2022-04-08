@@ -10,7 +10,7 @@
   "license": "MIT",
   "insomnia": {
     "name": "jq",
-    "description": "Template tag enabling filtering of JSON strings using JQ"
+    "description": "Template tag enabling filtering of JSON strings using JQ",
     "publisher": {
       "name": "Brian Goad"
     }
