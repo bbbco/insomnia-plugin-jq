@@ -1,16 +1,19 @@
 {
   "name": "insomnia-plugin-jq",
   "version": "0.0.1",
-  "description": "Enables filtering of JSON responses with JQ",
+  "description": "Template Tag enabling filtering of JSON strings using JQ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian Goad",
-  "license": "ISC",
+  "license": "MIT",
   "insomnia": {
     "name": "jq",
-    "description": "Template tag to pull data out of JSON strings using JQ"
+    "description": "Template tag enabling filtering of JSON strings using JQ"
+    "publisher": {
+      "name": "Brian Goad"
+    }
   },
   "dependencies": {
     "node-jq": "2.3.3"
